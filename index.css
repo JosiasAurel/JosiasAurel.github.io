@@ -5,9 +5,11 @@
     font-family: monospace;
 }
 
+html { overflow-x: hidden; }
 body {
     margin: 0 auto;
     background-color: rgb(0, 0, 31);
+    overflow-x: hidden;
 }
 
 ::selection {
