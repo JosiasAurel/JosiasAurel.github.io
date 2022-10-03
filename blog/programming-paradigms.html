@@ -1,0 +1,287 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><title>Programming Paradigms</title><meta name="title" content="Programming Paradigms"/><meta name="description" content="An insightful look."/><meta property="og:type" content="website"/><meta property="og:title" content="Programming Paradigms"/><meta property="og:description" content="An insightful look."/><meta property="og:image" content="https://og-gen.josiasw.dev/Programming%20Paradigms.png?theme=light&amp;md=1&amp;fontSize=100px&amp;images=https%3A%2F%2Fraw.githubusercontent.com%2FJosiasAurel%2FJosiasAurel%2Fmaster%2Fjosias.jpg&amp;widths=350&amp;heights=350"/><meta property="twitter:card" content="summary_large_image"/><meta property="twitter:title" content="Programming Paradigms"/><meta property="twitter:description" content="An insightful look."/><meta property="twitter:image" content="https://og-gen.josiasw.dev/Programming%20Paradigms.png?theme=light&amp;md=1&amp;fontSize=100px&amp;images=https%3A%2F%2Fraw.githubusercontent.com%2FJosiasAurel%2FJosiasAurel%2Fmaster%2Fjosias.jpg&amp;widths=350&amp;heights=350"/><meta property="og:url" content=""/><meta property="twitter:url" content=""/><meta name="next-head-count" content="15"/><link rel="shortcut icon" href="/josias.jpg" type="image/x-icon"/><script async="" src="https://cdn.splitbee.io/sb.js"></script><link rel="preload" href="/_next/static/css/32d5b65e0e12f36b.css" as="style"/><link rel="stylesheet" href="/_next/static/css/32d5b65e0e12f36b.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-34c76af51fb9f015.js" defer=""></script><script src="/_next/static/chunks/framework-3581bb99e4b98af8.js" defer=""></script><script src="/_next/static/chunks/main-5769d850ce2d583a.js" defer=""></script><script src="/_next/static/chunks/pages/_app-ca372bb455514e10.js" defer=""></script><script src="/_next/static/chunks/pages/blog/programming-paradigms-ef27d001c383d16c.js" defer=""></script><script src="/_next/static/kw9LLA8LeM-ALX9bSIB8I/_buildManifest.js" defer=""></script><script src="/_next/static/kw9LLA8LeM-ALX9bSIB8I/_ssgManifest.js" defer=""></script><script src="/_next/static/kw9LLA8LeM-ALX9bSIB8I/_middlewareManifest.js" defer=""></script></head><body><div id="__next"><div><header style="z-index:10" class="components_header___BPQd"><nav><h2><svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11H14.5H17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7H14.5H17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 15V3.6C8 3.26863 8.26863 3 8.6 3H20.4C20.7314 3 21 3.26863 21 3.6V17C21 19.2091 19.2091 21 17 21V21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 15H8H12.4C12.7314 15 13.0031 15.2668 13.0298 15.5971C13.1526 17.1147 13.7812 21 17 21H8H6C4.34315 21 3 19.6569 3 18V17C3 15.8954 3.89543 15 5 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></h2><button><img src="/moon.svg" alt="moon"/></button></nav></header><div style="margin:4em 0">
+<!-- --><div class="components_blogHead__E3Jtm"><h1 style="font-size:2.5em;text-align:start">Programming Paradigms</h1><p style="font-size:1.2em"><em>An insightful look.</em></p><p>Friday, May 27, 2022</p></div>
+<!-- --><p style="font-size:1.2em">A programming paradigm refers to the pattern which a program code follows.
+It can be thought of as a style of programming.
+Some languages will enforce a paradigm onto the programmers using it while others
+allow you to program in whichever paradigm you wish.</p>
+<!-- --><p style="font-size:1.2em">In this article we are going to take a look at a few common programming paradigms;</p>
+<!-- --><ul>
+<!-- --><li>Imperative</li>
+<!-- --><li>Procedural</li>
+<!-- --><li>Object-OrientedFunctional</li>
+<!-- --><li>Declarative</li>
+<!-- --></ul>
+<!-- --><p style="font-size:1.2em">There are a few more interesting paradigms like <!-- --><a href="https://en.wikipedia.org/wiki/Reactive_programming">reactive</a> or <!-- --><a href="https://en.wikipedia.org/wiki/Mathematical_programming">mathematical</a>
+but I will limit this article to these five paradigms.<!-- --></p>
+<!-- --><blockquote>
+<!-- --><p style="font-size:1.2em">For the Object-Oriented paradigm, I will take a deeper dive in a separate article mainly because of how much it is applied and how daunting it can be to grasp.</p>
+<!-- --></blockquote>
+<!-- --><p style="font-size:1.2em">Now you might wonder why you should even care about different paradigms.</p>
+<!-- --><p style="font-size:1.2em">In programming, we can have different solutions to the same problem to simply say there is not a single way
+of tackling a problem. We can write code that solves the problem is different approaches and even programming languages and still make it.
+Paradigms offer us guidelines in which we can structure our code for solving problems, they are merely just that.</p>
+<!-- --><p style="font-size:1.2em">Without further ado, let&#x27;s get into it 🏃🏽</p>
+<!-- --><h2>Imperative Paradigm</h2>
+<!-- --><p style="font-size:1.2em">In the imperative paradigm, we write statements that describe the way to solve our problem step-by-step.
+A statement here simply refers to some action to be carried out. One thing peculiar to imperative paradigm is that
+every statement changes the program&#x27;s state.</p>
+<!-- --><p style="font-size:1.2em">A typical example of an imperative language is <!-- --><a href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>.<!-- --></p>
+<!-- --><p style="font-size:1.2em">Let&#x27;s say we want to calculate the area of a circle.
+We know the area of a circle if given by <!-- --><span class="math math-inline"><mjx-container className="MathJax" jax="SVG"><svg style="vertical-align:-0.025ex" xmlns="http://www.w3.org/2000/svg" width="11.572ex" height="1.912ex" role="img" focusable="false" viewBox="0 -833.9 5115 844.9" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D70B" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path><path id="MJX-1-TEX-N-D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path><path id="MJX-1-TEX-I-1D45F" d="M21 287Q22 290 23 295T28 317T38 348T53 381T73 411T99 433T132 442Q161 442 183 430T214 408T225 388Q227 382 228 382T236 389Q284 441 347 441H350Q398 441 422 400Q430 381 430 363Q430 333 417 315T391 292T366 288Q346 288 334 299T322 328Q322 376 378 392Q356 405 342 405Q286 405 239 331Q229 315 224 298T190 165Q156 25 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 114 189T154 366Q154 405 128 405Q107 405 92 377T68 316T57 280Q55 278 41 278H27Q21 284 21 287Z"></path><path id="MJX-1-TEX-I-1D44E" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path><path id="MJX-1-TEX-I-1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"></path><path id="MJX-1-TEX-I-1D456" d="M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z"></path><path id="MJX-1-TEX-I-1D462" d="M21 287Q21 295 30 318T55 370T99 420T158 442Q204 442 227 417T250 358Q250 340 216 246T182 105Q182 62 196 45T238 27T291 44T328 78L339 95Q341 99 377 247Q407 367 413 387T427 416Q444 431 463 431Q480 431 488 421T496 402L420 84Q419 79 419 68Q419 43 426 35T447 26Q469 29 482 57T512 145Q514 153 532 153Q551 153 551 144Q550 139 549 130T540 98T523 55T498 17T462 -8Q454 -10 438 -10Q372 -10 347 46Q345 45 336 36T318 21T296 6T267 -6T233 -11Q189 -11 155 7Q103 38 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path><path id="MJX-1-TEX-I-1D460" d="M131 289Q131 321 147 354T203 415T300 442Q362 442 390 415T419 355Q419 323 402 308T364 292Q351 292 340 300T328 326Q328 342 337 354T354 372T367 378Q368 378 368 379Q368 382 361 388T336 399T297 405Q249 405 227 379T204 326Q204 301 223 291T278 274T330 259Q396 230 396 163Q396 135 385 107T352 51T289 7T195 -10Q118 -10 86 19T53 87Q53 126 74 143T118 160Q133 160 146 151T160 120Q160 94 142 76T111 58Q109 57 108 57T107 55Q108 52 115 47T146 34T201 27Q237 27 263 38T301 66T318 97T323 122Q323 150 302 164T254 181T195 196T148 231Q131 256 131 289Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D70B" xlink:href="#MJX-1-TEX-I-1D70B"></use></g><g data-mml-node="mo" transform="translate(792.2,0)"><use data-c="D7" xlink:href="#MJX-1-TEX-N-D7"></use></g><g data-mml-node="mi" transform="translate(1792.4,0)"><use data-c="1D45F" xlink:href="#MJX-1-TEX-I-1D45F"></use></g><g data-mml-node="mi" transform="translate(2243.4,0)"><use data-c="1D44E" xlink:href="#MJX-1-TEX-I-1D44E"></use></g><g data-mml-node="mi" transform="translate(2772.4,0)"><use data-c="1D451" xlink:href="#MJX-1-TEX-I-1D451"></use></g><g data-mml-node="mi" transform="translate(3292.4,0)"><use data-c="1D456" xlink:href="#MJX-1-TEX-I-1D456"></use></g><g data-mml-node="mi" transform="translate(3637.4,0)"><use data-c="1D462" xlink:href="#MJX-1-TEX-I-1D462"></use></g><g data-mml-node="msup" transform="translate(4209.4,0)"><g data-mml-node="mi"><use data-c="1D460" xlink:href="#MJX-1-TEX-I-1D460"></use></g><g data-mml-node="mn" transform="translate(502,363) scale(0.707)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g></g></g></g></svg></mjx-container></span> so to do it step by step;<!-- --></p>
+<!-- --><pre><code class="hljs language-python"> 
+PI = <!-- --><span class="hljs-number">3.14</span>
+ 
+radius = <!-- --><span class="hljs-built_in">input</span>(<!-- --><span class="hljs-string">&quot;Enter the radius : &quot;</span>)
+ 
+area = PI*radius**<!-- --><span class="hljs-number">2</span>
+ 
+<!-- --><span class="hljs-built_in">print</span>(area)
+ 
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">In the code above, we do the following;</p>
+<!-- --><ul>
+<!-- --><li>we get the radius of a circle from the user.</li>
+<!-- --><li>we then compute the area of the circle</li>
+<!-- --><li>print the area of the circle</li>
+<!-- --></ul>
+<!-- --><p style="font-size:1.2em">Every statement above changes the program&#x27;s state.</p>
+<!-- --><ul>
+<!-- --><li>In the first line, we declare the value of PI.</li>
+<!-- --><li>Next, we read some value from the user, here the state of the program is tilted towards reading from <!-- --><a href="https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)"><strong>Standard Input</strong></a></li>
+<!-- --><li>We then compute the area of the circle and</li>
+<!-- --><li>print the area of the circle, the program state is then towards <!-- --><a href="https://en.wikipedia.org/wiki/Standard_streams#Standard_output_(stdout)"><strong>Standard Output</strong></a></li>
+<!-- --></ul>
+<!-- --><h2>Procedural Paradigm</h2>
+<!-- --><p style="font-size:1.2em">The procedural paradigm is a subset of the imperative programming paradigm, so it
+has all of the features of the imperative paradigm.</p>
+<!-- --><p style="font-size:1.2em">Here the program instructions are divided into subroutines or procedures
+and these are just blocks of code to carry out a specific task/computation.</p>
+<!-- --><p style="font-size:1.2em">This paradigm encourages modularity i.e dividing your solution into smaller blocks
+that do one thing and do it well. A procedure may call another procedure in itself.
+This paradigm encourages reusability.</p>
+<!-- --><p style="font-size:1.2em">C language is a typical example of a language following the imperative procedural paradigm.</p>
+<!-- --><p style="font-size:1.2em">In C, we will divide each execution unit into separate functions/procedures.
+We will then have the main function which will be the entry point of our program
+and it is from there that every other procedure can be called.</p>
+<!-- --><p style="font-size:1.2em">Here is some example code to compute the area of a circle (This is not C).;</p>
+<!-- --><pre><code class="hljs language-typescript"><span class="hljs-keyword">const</span> <!-- --><span class="hljs-attr">PI</span>: <!-- --><span class="hljs-built_in">number</span> = <!-- --><span class="hljs-number">3.14</span>;
+ 
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">readUserInput</span>(<!-- --><span class="hljs-params"></span>): <!-- --><span class="hljs-built_in">number</span> {
+  <!-- --><span class="hljs-comment">// read user input from keyboard for example</span>
+  <!-- --><span class="hljs-keyword">return</span> userInput;
+}
+ 
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">computeArea</span>(<!-- --><span class="hljs-params"></span>) {
+  <!-- --><span class="hljs-keyword">const</span> radius = <!-- --><span class="hljs-title function_">readUserInput</span>();
+ 
+  <!-- --><span class="hljs-keyword">const</span> area = <!-- --><span class="hljs-variable constant_">PI</span> * (radius * radius);
+ 
+  <!-- --><span class="hljs-title function_">print</span>(area);
+}
+ 
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">main</span>(<!-- --><span class="hljs-params"></span>) {
+  <!-- --><span class="hljs-title function_">computeArea</span>();
+}
+ 
+<!-- --><span class="hljs-comment">// more operations...</span>
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">In the code above, we have defined functions <!-- --><code>readUserInput()</code> to read input from the user
+as well as a function <!-- --><code>computeArea()</code> which should read the radius of the circle from the user as input
+and then compute the area.<!-- --></p>
+<!-- --><p style="font-size:1.2em">We then have the main function where we call out <!-- --><code>computeArea()</code> function.<!-- --></p>
+<!-- --><h2>Object-Oriented Paradigm (OOP)</h2>
+<!-- --><p style="font-size:1.2em">This is another form of the imperative paradigm.</p>
+<!-- --><p style="font-size:1.2em">In OOP, everything is considered an object.
+Each object holds some information and methods/procedures to mutate/modify
+its data.</p>
+<!-- --><p style="font-size:1.2em">This paradigm is very popular nowadays.</p>
+<!-- --><p style="font-size:1.2em">We will define classes/blueprints that will make the basis for any type of object in our code.</p>
+<!-- --><p style="font-size:1.2em">Some good examples of object-oriented languages include <!-- --><em>Java</em>, <!-- --><em>Python3</em>, and C++, etc.<!-- --></p>
+<!-- --><p style="font-size:1.2em">You can read more about this paradigm <!-- --><a href="/blog/object-oriented-paradigm">here</a>.<!-- --></p>
+<!-- --><h2>Declarative Paradigm</h2>
+<!-- --><p style="font-size:1.2em">In this style, the program is written in a way that describes what results are expected from the program
+without explicitly telling the computer how to carry out the task.</p>
+<!-- --><blockquote>
+<!-- --><p style="font-size:1.2em">Any style that is non-imperative is said to be declarative.</p>
+<!-- --></blockquote>
+<!-- --><p style="font-size:1.2em">A typical example of a language following this style is SQL.</p>
+<!-- --><p style="font-size:1.2em">SQL allows you to specify what results in you want but the inner workings of the system executing
+it is none of your business.
+A database might decide to store data in the form of a hierarchical structure while another might do so as tables.
+Regardless of the way the database was designed, it will still execute your SQL code even if the way it does it is different.</p>
+<!-- --><pre><code class="hljs language-SQL"><span class="hljs-keyword">SELECT</span> <!-- --><span class="hljs-built_in">count</span>() <!-- --><span class="hljs-keyword">FROM</span> Africa <!-- --><span class="hljs-keyword">WHERE</span> area <!-- --><span class="hljs-operator">&gt;=</span> <!-- --><span class="hljs-number">1000000</span>
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">The SQL code above will look into a table named Africa and count the number of countries having
+a surface area of 1 million and above.</p>
+<!-- --><h2>Functional Paradigm</h2>
+<!-- --><p style="font-size:1.2em">This is a form of <!-- --><code>Declarative Paradigm</code>.
+A program is constructed by composing together functions.<!-- --></p>
+<!-- --><p style="font-size:1.2em">Here, functions are capable of being used and do anything;</p>
+<!-- --><ul>
+<!-- --><li>Assigned to variables</li>
+<!-- --><li>Passed as arguments to other functions</li>
+<!-- --><li>Returned from other functions</li>
+<!-- --><li>and much more...</li>
+<!-- --></ul>
+<!-- --><p style="font-size:1.2em">With this ability, we will typically say functions are considered <!-- --><a href="https://en.wikipedia.org/wiki/First-class_citizen"><em>first class citizens</em></a>.<!-- --></p>
+<!-- --><p style="font-size:1.2em">Some examples of functional programming languages include; <!-- --><em>Lisp</em>, <!-- --><em>Haskell</em> while other
+languages like <!-- --><em>JavaScript</em>, <!-- --><em>Python</em> and many more support this programming style.<!-- --></p>
+<!-- --><p style="font-size:1.2em">In this style, we have the concept of <!-- --><a href="https://en.wikipedia.org/wiki/Pure_function"><code>pure functions</code></a> and <!-- --><code>impure functions</code>.
+Pure functions are simply those that have no <!-- --><a href="https://en.wikipedia.org/wiki/Side_effect_(computer_science)">side effects</a> i.e cannot modify an external variable, change the program&#x27;s state or read/write values from/to a user.<!-- --></p>
+<!-- --><p style="font-size:1.2em">Take a look at the <!-- --><code>computeArea()</code> function we had from earlier;<!-- --></p>
+<!-- --><pre><code class="hljs language-typescript"><span class="hljs-comment">// impure function</span>
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">computeArea</span>(<!-- --><span class="hljs-params"></span>) {
+  <!-- --><span class="hljs-keyword">const</span> radius = <!-- --><span class="hljs-title function_">readUserInput</span>();
+ 
+  <!-- --><span class="hljs-keyword">const</span> area = <!-- --><span class="hljs-variable constant_">PI</span> * (radius * radius);
+ 
+  <!-- --><span class="hljs-title function_">print</span>(area);
+}
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">We see that it is reading a value from the user and then printing its result.
+This function is considered <!-- --><em>impure</em> because it changes the program&#x27;s state.<!-- --></p>
+<!-- --><p style="font-size:1.2em">A <!-- --><em>pure function</em> implementation might look like the code below;<!-- --></p>
+<!-- --><pre><code class="hljs language-typescript"><span class="hljs-comment">// pure function</span>
+ 
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">computeArea</span>(<!-- --><span class="hljs-params">radius: <!-- --><span class="hljs-built_in">number</span></span>): <!-- --><span class="hljs-built_in">number</span> {
+  <!-- --><span class="hljs-keyword">const</span> area = <!-- --><span class="hljs-variable constant_">PI</span> * (radius * radius);
+ 
+  <!-- --><span class="hljs-keyword">return</span> area;
+}
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">Here, the function does not read/write.
+The radius is passed to the function as an argument and it returns the area of the circle - all this without mutating any external value
+or changing the program&#x27;s state.</p>
+<!-- --><blockquote>
+<!-- --><p style="font-size:1.2em">If any function also modifies the value of an external variable, it is also considered <!-- --><em>impure</em>. Consider the example below.<!-- --></p>
+<!-- --></blockquote>
+<!-- --><pre><code class="hljs language-typescript"><span class="hljs-keyword">let</span> area;
+ 
+<!-- --><span class="hljs-comment">// impure function</span>
+<!-- --><span class="hljs-keyword">function</span> <!-- --><span class="hljs-title function_">computeArea</span>(<!-- --><span class="hljs-params">radius: <!-- --><span class="hljs-built_in">number</span></span>): <!-- --><span class="hljs-built_in">number</span> {
+  <!-- --><span class="hljs-comment">// changes the value of area which is an external variable to the function</span>
+  area = <!-- --><span class="hljs-variable constant_">PI</span> * (radius * radius);
+}
+<!-- --></code></pre>
+<!-- --><p style="font-size:1.2em">At this point, we have taken a look at some of the programming paradigms
+that are commonly used in the programming world today.</p>
+<!-- --><p style="font-size:1.2em">If you are interested in learning more paradigms, then consider reading <!-- --><a href="https://en.wikipedia.org/wiki/Programming_paradigm">this Wikipedia article</a>.<!-- --></p>
+<!-- --><p style="font-size:1.2em">We are going to close this here.
+I hope you enjoyed reading this as much as I enjoyed writing it.</p>
+<!-- --><p style="font-size:1.2em">— <!-- --><a href="/">Josias Aurel</a></p><style>
+mjx-container[jax=&quot;SVG&quot;] {
+  direction: ltr;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax=&quot;SVG&quot;] &gt; svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax=&quot;SVG&quot;][display=&quot;true&quot;][width=&quot;full&quot;] {
+  display: flex;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;left&quot;] {
+  text-align: left;
+}
+
+mjx-container[jax=&quot;SVG&quot;][justify=&quot;right&quot;] {
+  text-align: right;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node=&quot;merror&quot;] &gt; rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; line[data-line], svg[data-table] &gt; g &gt; line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; rect[data-frame], svg[data-table] &gt; g &gt; rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dashed, svg[data-table] &gt; g &gt; .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; .mjx-dotted, svg[data-table] &gt; g &gt; .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node=&quot;mtable&quot;] &gt; g &gt; svg {
+  overflow: visible;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax=&quot;SVG&quot;] mjx-tool &gt; mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool &gt; mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node=&quot;maction&quot;][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax=&quot;SVG&quot;] path[data-c], mjx-container[jax=&quot;SVG&quot;] use[data-c] {
+  stroke-width: 3;
+}
+</style></div><footer class="components_footer__Gdylu"><p>© <!-- -->2022<!-- --> | Josias Aurel ⚡ | Happy <!-- -->Mon Oct 03 2022<!-- --> <!-- --></p></footer></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/blog/programming-paradigms","query":{},"buildId":"kw9LLA8LeM-ALX9bSIB8I","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
